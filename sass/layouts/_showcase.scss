@@ -1,0 +1,16 @@
+.showcase {
+    padding: 60px 0;
+    &-row {
+        display: flex;
+    } // end showcase-row
+    &-p1 {
+        text-transform: uppercase;
+    } // end showcase-p1
+    &-p2 {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    } // end showcase-p2
+    &-row-img {
+        padding-left: 20px;
+    } // end showcase-row-img
+} // end showcase

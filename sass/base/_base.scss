@@ -1,0 +1,18 @@
+html,
+body {
+    font-family: $font-stack;
+    background-color: $primary-color;
+    color: $white-color;
+    line-height: 1.6;
+}
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}

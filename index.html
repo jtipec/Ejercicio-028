@@ -10,12 +10,12 @@
 <body>
     <header id="mainheader" class="mainheader">
         <nav id="navbar" class="navbar">
-            <div class="container">
+            <div class="container u-flex">
                 <div class="logo">Agency III</div>
-                <ul>
-                    <li><a href="#mainheader">mainheader</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="menu">
+                    <li><a href="#mainheader" class="menu__link">About</a></li>
+                    <li><a href="#services" class="menu__link">Services</a></li>
+                    <li><a href="#contact" class="menu__link">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -23,9 +23,9 @@
             <div class="container">
                 <div class="showcase-row">
                     <div class="showcase-row-txt">
-                        <p class="large">We are a full services</p>
-                        <h1 >Creative <br><span>design agency</span></h1>
-                        <p class="large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, laboriosam? Laborum corrupti assumenda, iste sequi tempore nihil ipsum, quis, pariatur unde culpa tenetur commodi sed.</p>
+                        <p class="large showcase-p1">We are a full services</p>
+                        <h1 class="u-display1">Creative <br><span class="txt-secondary">design agency</span></h1>
+                        <p class="large showcase-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, laboriosam? Laborum corrupti assumenda, iste sequi tempore nihil ipsum, quis, pariatur unde culpa tenetur commodi sed.</p>
                         <a href="#services" class="btn btn-dark">Learn More</a>
                     </div>
                     <div class="showcase-row-img">
@@ -38,28 +38,28 @@
 
     <section id="services" class="services">
         <div class="container">
-            <h2 class="txt-secondary">What we do</h2>
-            <p class="large">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore nemo deserunt consectetur voluptates blanditiis beatae nam tenetur facere recusandae aperiam.</p>
+            <h2 class="txt-secondary u-display2">What we do</h2>
+            <p class="large services-p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore nemo deserunt consectetur voluptates blanditiis beatae nam tenetur facere recusandae aperiam.</p>
             <div class="services-row">
                 <div class="services-row-box">
-                    <img src="./img/icon-ux.png" alt="">
-                    <h3 class="txt-secondary">UX Research</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
+                    <img src="./img/icon-ux.png" alt="" class="service__img">
+                    <h3 class="txt-secondary u-display3">UX Research</h3>
+                    <p class="service-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
                 </div>
                 <div class="services-row-box">
-                    <img src="./img/icon-brand.png" alt="">
-                    <h3 class="txt-secondary">Brand Identity</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
+                    <img src="./img/icon-brand.png" alt="" class="service__img">
+                    <h3 class="txt-secondary u-display3">Brand Identity</h3>
+                    <p class="service-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
                 </div>
                 <div class="services-row-box">
-                    <img src="./img/icon-web.png" alt="">
-                    <h3 class="txt-secondary">Web Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
+                    <img src="./img/icon-web.png" alt="" class="service__img">
+                    <h3 class="txt-secondary u-display3">Web Design</h3>
+                    <p class="service-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
                 </div>
                 <div class="services-row-box">
-                    <img src="./img/icon-photo.png" alt="">
-                    <h3 class="txt-secondary">Photography</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
+                    <img src="./img/icon-photo.png" alt="" class="service__img">
+                    <h3 class="txt-secondary u-display3">Photography</h3>
+                    <p class="service-p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores earum numquam repellendus ut rerum cum nihil provident consequatur ex?</p>
                 </div>
             </div>
         </div>
@@ -67,9 +67,9 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="txt-secondary">Contact Us</h2>
-            <p class="large">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quos dolorem ipsa, veniam est doloremque omnis ullam autem recusandae maxime?</p>
-            <form action="">
+            <h2 class="txt-secondary u-display2">Contact Us</h2>
+            <p class="large contact-p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quos dolorem ipsa, veniam est doloremque omnis ullam autem recusandae maxime?</p>
+            <form action="" class="form">
                 <div class="form-group">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control">
@@ -82,19 +82,18 @@
                     <label for="message" class="form-label">Message</label>
                     <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
                 </div>
-                <button class="btn btn-dark">Contact Us</button>
+                <button class="btn btn-dark contact-btn">Contact Us</button>
             </form>
         </div>
     </section>
 
-    <section id="mainfooter">
+    <footer id="mainfooter" class="mainfooter">
         <div class="container">
           <a href="https://twitter.com/irimaya?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @irimaya</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <div>
             <a href="https://www.youtube.com/watch?v=VZz_l5zQBeg" class="link-youtube">https://www.youtube.com/watch?v=VZz_l5zQBeg</a>
           </div>
-        </div>
-      </section>
+      </footer>
 
 </body>
 </html>

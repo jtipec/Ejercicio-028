@@ -1,0 +1,22 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__link {
+    color: $white-color;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 0 20px 20px;
+    text-align: center;
+}
