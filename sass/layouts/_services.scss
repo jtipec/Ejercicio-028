@@ -22,3 +22,18 @@
 .service-p2 {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .services {
+        padding: 40px 0;
+    }
+    .services-p1 {
+        width: 100%;
+    }
+    .services-row {
+        flex-wrap: wrap;
+    }
+    .service__img {
+        width: 50%;
+    }
+}

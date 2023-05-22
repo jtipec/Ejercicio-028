@@ -8,3 +8,16 @@
 .contact-btn {
     width: 100%;
 }
+
+@media (max-width:768px) {
+    .contact {
+        padding: 40px 0;
+    }
+    .contact-p1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact-btn {
+        width: 100%;
+    }
+}

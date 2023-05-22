@@ -14,3 +14,29 @@
         padding-left: 20px;
     } // end showcase-row-img
 } // end showcase
+
+@media (max-width: 768px) {
+    .showcase {
+        padding: 20px 0;
+        &-row {
+            flex-wrap: wrap;
+        } // end showcase-row
+        &-p1 {
+            text-align: center;
+        } // end showcase-p1
+        &-p2 {
+            text-align: center;
+        } // end showcase-p2
+        &-row-img {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0;
+            display: block;
+            width: 300px;
+        } // end showcase-row-img
+    } // end showcase
+    .img {
+        width: 100%;
+    }
+}
